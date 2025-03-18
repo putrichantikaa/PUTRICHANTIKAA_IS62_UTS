@@ -69,8 +69,11 @@
     </div>
 
 
-    <div class="container">
-        <h1 style="margin-bottom: 80px;"> Lorem ipsum dolor sit amet </h1>
+    <div class="container" style="margin-top: 50px ">
+        <p class="fs-1"> Lorem ipsum dolor sit amet</p>
+
+            <p class="col-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, natus eos quasi harum quis assumenda sequi facere reiciendis perspiciatis eligendi magnam, dolores, similique aut eveniet praesentium iure cupiditate quas reprehenderit.
+            </p>
 
 
 
