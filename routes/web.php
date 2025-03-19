@@ -28,3 +28,20 @@ Route::get('/', function () {
 Route::get('/beranda', function () {
     return view('data.beranda');
 });
+
+Route::get('/form', function () {
+    return view('karyawan.form');
+});
+
+Route::get('/hasil', function () {
+    return view('karyawan.hasil');
+});
+
+Route::get('/master', function () {
+    return view('karyawan.master');
+});
+
+Route::get('/hasilpas', function () {
+    return view('hasilpas');
+});
+
