@@ -17,22 +17,24 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">ID</th>
+                    <th scope="col">NIK</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Alamat</th>
+                    <th scope="col">Umur</th>
+                    <th scope="col">Diagnosa</th>
                     <th scope="col">No HP</th>
-                    <th scope="col">Posisi</th>
+                    <th scope="col">Alamat</th>
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>1234</td>
-                    <td>Putri Chantika</td>
-                    <td>Keutapang</td>
-                    <td>081234567</td>
-                    <td>Apoteker</td>
+                    <td>11186352</td>
+                    <td>Raihan Ramadhani</td>
+                    <td>19 Tahun</td>
+                    <td>Demam</td>
+                    <td>08564567</td>
+                    <td>Mibo</td>
                     <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
                     <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
                   </tr>
