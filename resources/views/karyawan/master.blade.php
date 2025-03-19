@@ -32,17 +32,17 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="hasilobat">
               Data Obat
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="hasilres">
               Data Resep
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="hasilpengobt">
               Data Pengambilan Obat
             </a>
           </li>

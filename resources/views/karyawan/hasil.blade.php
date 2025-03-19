@@ -7,7 +7,7 @@
 
 <div class="card mt-4">
     <div class="card-header">
-       <h2 class="float-start"> Daftar Data Pengguna </h2>
+       <h2 class="float-start"> Daftar Data Karyawan </h2>
        <button type="button" class="btn btn-warning float-end" style="float: right;">
         <a class="nav-link" href="/form"><i class="fa-solid fa-user-plus"></i>  </a>
       </button>
@@ -17,8 +17,8 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">ID</th>
-                    <th scope="col">Nama</th>
+                    <th scope="col">ID Karyawan</th>
+                    <th scope="col">Nama Karyawan</th>
                     <th scope="col">Alamat</th>
                     <th scope="col">No HP</th>
                     <th scope="col">Posisi</th>

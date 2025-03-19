@@ -1,10 +1,6 @@
 @extends('karyawan.master')
 @section('form')
 
-{{-- <button type="button" class="btn btn-warning" style="float: right;">
-    <a href="form"><i class="fa-solid fa-user-plus"></i></a>
-  </button> --}}
-
 <div class="card mt-4">
     <div class="card-header">
        <h2 class="float-start"> Daftar Data Pasien </h2>
@@ -18,7 +14,7 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">NIK</th>
-                    <th scope="col">Nama</th>
+                    <th scope="col">Nama Pasien</th>
                     <th scope="col">Umur</th>
                     <th scope="col">Diagnosa</th>
                     <th scope="col">No HP</th>

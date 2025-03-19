@@ -4,16 +4,16 @@
 
 <form action="" method="POST" class="mt-5">
     <fieldset>
-        <legend>Form Data Pengguna</legend>
+        <legend>Form Data Karyawan</legend>
         <table class="table" style="width: 1000px">
 
             <div class="form-group" style="margin-bottom: 25px;">
-                <label for="id">ID</label>
+                <label for="id">ID karyawan</label>
                 <input type="text" class="form-control" id="id" name="id" required style="margin-top: 10px;">
             </div>
 
             <div class="form-group" style="margin-bottom: 25px;">
-                <label for="name">Nama</label>
+                <label for="name">Nama Karyawan</label>
                 <input type="text" class="form-control" id="name" name="name" required style="margin-top: 10px;">
             </div>
 
@@ -37,7 +37,6 @@
             </div>
 
         </table>
-        <!-- Add a div with class "text-end" for right alignment -->
         <div class="text-end">
             <button type="button" class="btn btn-secondary" onclick="window.history.back();">Batal</button>
             <button type="submit" class="btn btn-primary"> <a class="nav-link" href="/hasil">Simpan</a></button>

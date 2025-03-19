@@ -12,7 +12,7 @@
             </div>
 
             <div class="form-group" style="margin-bottom: 25px;">
-                <label for="name">Nama</label>
+                <label for="name">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" name="name" required style="margin-top: 10px;">
             </div>
 
@@ -39,7 +39,7 @@
 
         <div class="text-end">
             <button type="button" class="btn btn-secondary" onclick="window.history.back();">Batal</button>
-            <button type="submit" class="btn btn-primary"> <a class="nav-link" href="/hasil">Simpan</a></button>
+            <button type="submit" class="btn btn-primary"> <a class="nav-link" href="/hasilpas">Simpan</a></button>
         </div>
     </fieldset>
 </form>

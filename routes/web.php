@@ -45,15 +45,31 @@ Route::get('/hasilpas', function () {
     return view('hasilpas');
 });
 
-Route::get('/hasilobat',function () {
-    return view('hasilobat');
-});
-
 Route::get('/formpas',function () {
     return view('formpas');
 });
 
+Route::get('/hasilobat',function () {
+    return view('hasilobat');
+});
+
 Route::get('/formobat',function () {
     return view('formobat');
+});
+
+Route::get('/hasilres',function () {
+    return view('hasilres');
+});
+
+Route::get('/resep',function () {
+    return view('resep');
+});
+
+Route::get('/hasilpengobt',function () {
+    return view('hasilpengobt');
+});
+
+Route::get('/formpengobt',function () {
+    return view('formpengobt');
 });
 
