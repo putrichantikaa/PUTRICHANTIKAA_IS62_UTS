@@ -45,3 +45,15 @@ Route::get('/hasilpas', function () {
     return view('hasilpas');
 });
 
+Route::get('/hasilobat',function () {
+    return view('hasilobat');
+});
+
+Route::get('/formpas',function () {
+    return view('formpas');
+});
+
+Route::get('/formobat',function () {
+    return view('formobat');
+});
+

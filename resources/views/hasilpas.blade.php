@@ -9,7 +9,7 @@
     <div class="card-header">
        <h2 class="float-start"> Daftar Data Pasien </h2>
        <button type="button" class="btn btn-warning float-end" style="float: right;">
-        <a class="nav-link" href="/form"><i class="fa-solid fa-user-plus"></i>  </a>
+        <a class="nav-link" href="/formpas"><i class="fa-solid fa-user-plus"></i>  </a>
       </button>
     </div>
         <div class="card-body">
@@ -45,3 +45,4 @@
 </div>
 
 @endsection
+
