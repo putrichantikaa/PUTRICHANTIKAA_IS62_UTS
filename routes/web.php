@@ -70,3 +70,7 @@ Route::get('/formpengobt',function () {
     return view('formpengobt');
 });
 
+Route::get('/login',function () {
+    return view('login');
+});
+

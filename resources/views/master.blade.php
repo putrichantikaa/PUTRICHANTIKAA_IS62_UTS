@@ -63,7 +63,7 @@
               </li>
 
               <li class="nav-item mb-3">
-                <a class="nav-link text-danger" href="#">
+                <a class="nav-link text-danger" href="/login">
                     <i class="fa-solid fa-right-from-bracket" style="margin-right: 8px;"></i>
                   Logout
                 </a>
