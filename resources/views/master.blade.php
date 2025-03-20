@@ -10,64 +10,75 @@
     <title>@yield('title')</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <!-- Sidebar -->
-      <div class="col-md-3 col-lg-2 p-3 bg-light">
-        <h4 class="mb-4">Apotek Cinta Sehat</h4>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="/dashboard">
-                <i class="fa-solid fa-gauge-simple-high"></i>
-              Dashboard
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/hasilkar">
-                <i class="fa-solid fa-users"></i>
-              Data Karyawan
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/hasilpas">
-                <i class="fa-solid fa-hospital-user"></i>
-              Data Pasien
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hasilobat">
-                <i class="fa-solid fa-tablets"></i>
-              Data Obat
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hasilres">
-                <i class="fa-regular fa-clipboard"></i>
-              Data Resep
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hasilpengobt">
-                <i class="fa-solid fa-bag-shopping"></i>
-              Data Pengambilan Obat
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-danger" href="#">
-                <i class="fa-solid fa-right-from-bracket"></i>
-              Logout
-            </a>
-          </li>
-        </ul>
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-3 col-lg-2 p-4 bg-secondary-subtle vh-100">
+            <h4 class="mb-4 d-flex align-items-center">
+                <img src="{{asset('image/logo.png')}}" alt="Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+                Apotek Cinta Sehat
+            </h4>
+
+            <ul class="nav flex-column">
+            <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="/dashboard">
+                    <i class="fa-solid fa-gauge-simple-high" style="margin-right: 8px;"></i>
+                  Dashboard
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="/hasilkar">
+                    <i class="fa-solid fa-users" style="margin-right: 5px;"></i>
+                  Data Karyawan
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="/hasilpas">
+                    <i class="fa-solid fa-hospital-user" style="margin-right: 7px;"></i>
+                  Data Pasien
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="hasilobat">
+                    <i class="fa-solid fa-tablets" style="margin-right: 5px;"></i>
+                    Data Obat
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="hasilres">
+                    <i class="fa-regular fa-clipboard" style="margin-right: 12px;"></i>
+                  Data Resep
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-black" href="hasilpengobt">
+                    <i class="fa-solid fa-bag-shopping" style="margin-right: 10px;"></i>
+                  Data Pengambilan Obat
+                </a>
+              </li>
+
+              <li class="nav-item mb-3">
+                <a class="nav-link text-danger" href="#">
+                    <i class="fa-solid fa-right-from-bracket" style="margin-right: 8px;"></i>
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Konten utama -->
+          <div class="col-md-9 col-lg-10 p-4">
+            <h2>Apotek Cinta Sehat</h2>
+            @yield('form')
+          </div>
+        </div>
       </div>
 
-      <!-- Konten utama -->
-      <div class="col-md-9 col-lg-10 p-4">
-        <h2>Apotek Cinta Sehat</h2>
-        @yield('form')
-      </div>
-    </div>
-  </div>
 
   <!-- Menyertakan Bootstrap JS dan dependensinya (Popper.js dan Bootstrap JS) -->
   <script src="{{asset('js/bootstrap.min.js')}}"></script>
