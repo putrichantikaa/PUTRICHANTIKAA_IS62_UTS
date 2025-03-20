@@ -39,7 +39,7 @@
         </table>
         <div class="text-end">
             <button type="button" class="btn btn-secondary" onclick="window.history.back();">Batal</button>
-            <button type="submit" class="btn btn-primary"> <a class="nav-link" href="/hasil">Simpan</a></button>
+            <button type="submit" class="btn btn-primary"> <a class="nav-link" href="/hasilkar">Simpan</a></button>
         </div>
     </fieldset>
 </form>
