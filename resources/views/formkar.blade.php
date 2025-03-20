@@ -1,4 +1,4 @@
-@extends('karyawan.master')
+@extends('master')
 @section('form')
 
 
@@ -30,7 +30,7 @@
             <div class="form-group" style="margin-bottom: 25px;">
                 <label for="position">Posisi</label>
                 <select id="position" class="form-select" name="position" required style="margin-top: 10px;">
-                    <option>Pilih Posisi</option>
+                    <option>-- Pilih Posisi -- </option>
                     <option>Petugas</option>
                     <option>Apoteker</option>
                 </select>

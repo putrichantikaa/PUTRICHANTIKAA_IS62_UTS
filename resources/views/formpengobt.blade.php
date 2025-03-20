@@ -1,4 +1,4 @@
-@extends('karyawan.master')
+@extends('master')
 @section('form')
 
 <form action="" method="POST" class="mt-5">

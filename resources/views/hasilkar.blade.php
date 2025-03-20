@@ -1,11 +1,7 @@
-@extends('karyawan.master')
+@extends('master')
 @section('form')
 
-{{-- <button type="button" class="btn btn-warning" style="float: right;">
-    <a href="form"><i class="fa-solid fa-user-plus"></i></a>
-  </button> --}}
-
-<div class="card mt-4">
+<div class="card mt-4 bg-primary-subtle">
     <div class="card-header">
        <h2 class="float-start"> Daftar Data Karyawan </h2>
        <button type="button" class="btn btn-warning float-end" style="float: right;">
@@ -13,7 +9,7 @@
       </button>
     </div>
         <div class="card-body">
-            <table class="table" >
+            <table class="table table-primary" >
                 <thead>
                   <tr>
                     <th scope="col">#</th>

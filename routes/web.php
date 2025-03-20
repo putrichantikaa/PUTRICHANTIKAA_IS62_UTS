@@ -17,29 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/cth', function () {
-//     return view('contoh');
-// });
+Route::get('/master', function () {
+    return view('master');
+});
 
-// Route::fallback(function () {
-//     return view('notfound');
-// });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 
 Route::get('/beranda', function () {
     return view('data.beranda');
 });
 
-Route::get('/form', function () {
-    return view('karyawan.form');
+Route::get('/formkar', function () {
+    return view('formkar');
 });
 
-Route::get('/hasil', function () {
-    return view('karyawan.hasil');
+Route::get('/hasilkar', function () {
+    return view('hasilkar');
 });
 
-Route::get('/master', function () {
-    return view('karyawan.master');
-});
 
 Route::get('/hasilpas', function () {
     return view('hasilpas');

@@ -1,4 +1,4 @@
-@extends('karyawan.master')
+@extends('master')
 @section('form')
 
 <form action="" method="POST" class="mt-5">
@@ -22,8 +22,12 @@
             </div>
 
             <div class="form-group" style="margin-bottom: 25px;">
-                <label for="address">Satuan</label>
-                <input type="text" class="form-control" id="name" name="name" required style="margin-top: 10px;">
+                <label for="position">Satuan</label>
+                <select id="position" class="form-select" name="position" required style="margin-top: 10px;">
+                    <option>-- Pilih Satuan Obat --</option>
+                    <option>Tablet</option>
+                    <option>Botol</option>
+                </select>
             </div>
 
         </table>

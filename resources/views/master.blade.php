@@ -17,37 +17,44 @@
         <h4 class="mb-4">Apotek Cinta Sehat</h4>
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="#">
+            <a class="nav-link active" href="/dashboard">
+                <i class="fa-solid fa-gauge-simple-high"></i>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/hasil">
-              Data Pengguna
+            <a class="nav-link" href="/hasilkar">
+                <i class="fa-solid fa-users"></i>
+              Data Karyawan
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/hasilpas">
+                <i class="fa-solid fa-hospital-user"></i>
               Data Pasien
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="hasilobat">
+                <i class="fa-solid fa-tablets"></i>
               Data Obat
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="hasilres">
+                <i class="fa-regular fa-clipboard"></i>
               Data Resep
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="hasilpengobt">
+                <i class="fa-solid fa-bag-shopping"></i>
               Data Pengambilan Obat
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-danger" href="#">
+                <i class="fa-solid fa-right-from-bracket"></i>
               Logout
             </a>
           </li>
